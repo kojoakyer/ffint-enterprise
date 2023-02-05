@@ -1,16 +1,14 @@
 import React from 'react'
 import './herosection.css'
 
-import {Fade} from 'react-reveal'
-
 const Herosection = () => {
   return (
     <div className='herosection' id='about'>
         <div className="herosection-wrapper">
             <div className="herosection-wrapper-left">
-                <Fade left>
+                {/* <Fade left> */}
                     <img src="assets/about-img.png" alt="" />
-                </Fade>
+                {/* </Fade> */}
             </div>
             <div className="herosection-wrapper-right">
                 <h3>ABOUT FFINT ENTERPRISE</h3>

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fade } from 'react-reveal'
 import './values.css'
 
 
@@ -10,19 +9,19 @@ const Values = () => {
         <div className="values-wrapper">
             
             <div className="values-wrapper-left">
-            <Fade bottom>
+            {/* <Fade bottom> */}
                 <h2>Core Values</h2>
                 <p>Our mission is to promote healthy nutrition while encouraging economic development through exceptional produce from Ghana</p>
                 <div className="value-btn">
                     <button>Learn more</button>
                     <button>Contact us</button>
                 </div>
-            </Fade>
+            {/* </Fade> */}
             </div>
            
           
             <div className="values-wrapper-right">
-            <Fade bottom>
+            {/* <Fade bottom> */}
                 <div className="value-container">
                     <h4>15</h4>
                     <h5>YEARS OF EXPERIENCE</h5>
@@ -39,7 +38,7 @@ const Values = () => {
                     <h4>25</h4>
                     <h5>QUALIFIED WORKERS</h5>
                 </div>
-            </Fade>
+            {/* </Fade> */}
             </div>
             
         </div>

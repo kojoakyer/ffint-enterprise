@@ -1,5 +1,4 @@
 import React from 'react'
-import { Fade } from 'react-reveal'
 import './midsection.css'
 
 const Midsection = () => {
@@ -39,9 +38,9 @@ const Midsection = () => {
                 <button className='mid-btn'>Learn more</button>
             </div>
             <div className="midsection-wrapper-right">
-                <Fade right>
+                {/* <Fade right> */}
                     <img src="assets/choose-us.png" alt="" />
-                </Fade>
+                {/* </Fade> */}
             </div>
         </div>
     </div>
