@@ -1,0 +1,121 @@
+.header{
+    background-image: url('../../../public/assets/header2.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper-left{
+    padding: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-wrapper-left h2{
+    font-size: 65px;
+    color: white;
+}
+
+.header-wrapper-left h3{
+    margin-top: -50px;
+    font-size: 2rem;
+    color: white;
+}
+
+.header-wrapper-left p{
+    width: 70%;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+
+.header-wrapper-right{
+    margin-top: -50px;
+}
+
+
+.header-wrapper-right .btn-left{
+    background-color: white;
+    border: 1px solid rgb(246, 242, 242);
+    color: black;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+
+.header-wrapper-right .btn-right{
+    border: 1px solid white;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 30px;
+    background: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 960px) {
+    .header{
+        width: 100%;
+        height: 100%;
+        padding-bottom: 100px;
+       
+    }
+    
+    .header-wrapper{
+        display: flex;
+    }
+    
+    .header-wrapper-left{
+        padding: 50px 10px; 
+    }
+
+    .header-wrapper-left h2{
+        font-size: 65px;
+        color: white;
+    }
+    
+    .header-wrapper-left h3{
+        margin-top: -50px;
+        font-size: 2rem;
+        color: white;
+    }
+    
+    .header-wrapper-left p{
+       display: none;
+    }
+    
+    .header-wrapper-right{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    
+    .header-wrapper-right .btn-left{
+        width: 80%;
+    }
+    
+    .header-wrapper-right .btn-right{
+        
+        margin-left: 0px;
+       
+        width: 80%;
+        margin-top: 30px;
+    }
+    
+}

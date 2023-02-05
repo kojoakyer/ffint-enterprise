@@ -1,0 +1,92 @@
+.values{
+    width: 100%;
+    margin: 100px 0px;
+}
+
+.values-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.values-wrapper-left{
+    background-image: url('../../../public/assets/plants.jpg');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.values-wrapper-left h2{
+    color: white;
+}
+
+.values-wrapper-left p{
+    color: white;
+    font-size: 24px;
+    width: 60%;
+}
+
+.values-btn{
+
+}
+
+.value-btn button{
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.values-wrapper-right{
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background-color: #18978F;
+}
+
+.values-wrapper-right .value-container{
+    width:50% ;
+    height: 15%;
+    border-left: 1px solid white;
+    border-right: 1px solid white ;
+    padding: 10px 30px;
+    color: white;
+}
+
+.value-container h4{
+    font-size: 2rem;
+}
+
+.value-container h5{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+
+    .values-wrapper-left{
+      
+        height: 100%;
+       padding: 30px 0px;
+    }
+    .values-wrapper-right{
+    
+        flex-direction: column;
+        padding: 0px 10px;
+        
+    }
+
+    .values-wrapper-right .value-container{
+        width:90% ;
+        height: 15%;
+        border-bottom: 1px solid white;
+        padding: 10px 30px;
+        color: white;
+    }
+}

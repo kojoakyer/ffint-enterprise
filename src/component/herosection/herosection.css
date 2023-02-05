@@ -1,0 +1,81 @@
+.herosection{
+    width: 100%;
+    background-image: url(https://res.cloudinary.com/dypj8zqbm/image/upload/v1622039729/Group_9685_1_1_leqkto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.herosection-wrapper{
+    display: flex;
+    padding: 50px 100px;
+}
+
+.herosection-wrapper-left{
+    flex: 0.5;
+}
+
+.herosection-wrapper-right{
+    flex: 0.5;
+    text-align: start;
+ 
+}
+
+.herosection-wrapper-right-img{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30%;
+}
+
+.hero-img{
+    display: flex;
+    align-items: center;
+}
+
+.hero-img h6{
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.hero-img img{
+    width: 80px;
+    height: 80px;
+}
+
+.herosection-btn{
+    padding: 10px 20px;
+    background-color: rgb(6, 65, 45);
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+
+@media screen and (max-width: 960px) {
+    .herosection-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    
+    .herosection-wrapper-left{
+        flex: 0.5;
+    }
+
+    .herosection-wrapper-left img{
+        width: 80%;
+    }
+    
+    .herosection-wrapper-right{
+        flex: 0.5;
+        text-align: start;
+     
+    }
+
+    
+.herosection-wrapper-right-img{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+}
+
