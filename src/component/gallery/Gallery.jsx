@@ -30,28 +30,36 @@ export default Gallery
 
 const items =[
     {
-        img:'assets/berry.jpg',
-        title:'Strawbery'
+        img:'assets/img1.jpg',
+        title:'Turia'
     },
     {
-        img:'assets/berry.jpg',
-        title:'Strawberry'
+        img:'assets/img2.jpg',
+        title:'Tinda'
     },
     {
-        img:'assets/green.jpg',
-        title:'Tomatoes'
+        img:'https://images.pexels.com/photos/13422250/pexels-photo-13422250.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
+        title:'Birdeye Chilli'
     },
     {
-        img:'assets/bag-img2.jpg',
-        title:'tomato'
+        img:'assets/img5.jpg',
+        title:'Dried Hibiscus'
     },
     {
-        img:'assets/plants.jpg',
-        title:'plant'
+        img:'https://images.pexels.com/photos/2103946/pexels-photo-2103946.jpeg?auto=compress&cs=tinysrgb&w=600',
+        title:'Dried Coconut '
     },
     {
-        img:'assets/bag-img.jpg',
-        title:'plant'
+        img:'assets/img3.jpg',
+        title:'Long Marrow'
+    },
+    {
+        img:'assets/img6.jpg',
+        title:'Fresh Puna Yam'
+    },
+    {
+        img:'assets/img4.jpg',
+        title:'Tiger Nut'
     },
     
 

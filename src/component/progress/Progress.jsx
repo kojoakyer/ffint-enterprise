@@ -4,7 +4,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 
 const Progress = () => {
-  const percentage = 66;
+  const percentage = 78;
   return (
     <div className='progress'>
       <div className="progress-wrapper">

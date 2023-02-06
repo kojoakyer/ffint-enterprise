@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 import './header.css'
 
@@ -18,8 +20,8 @@ const Header = () => {
             </div>
             <div className="header-wrapper-right">
                 {/* <Fade bottom> */}
-                <button className='btn-left'>About us</button>
-                <button className='btn-right'>Contact us</button>
+                <button className='btn-left'><HashLink style={{textDecoration:'none', color:'black'}} to='/#about'>About us</HashLink></button>
+                <button className='btn-right'><Link style={{textDecoration:'none', color:'white'}} to='/contact-us'>Contact us</Link></button>
                 {/* </Fade> */}
             </div>
         </div>
