@@ -7,7 +7,7 @@ const Herosection = () => {
         <div className="herosection-wrapper">
             <div className="herosection-wrapper-left">
                 {/* <Fade left> */}
-                    <img src="assets/about-img.png" alt="" />
+                    <img src="http://maispura.ind.br/home/wp-content/uploads/2015/12/product_creative-600x449.png" alt="" />
                 {/* </Fade> */}
             </div>
             <div className="herosection-wrapper-right">
