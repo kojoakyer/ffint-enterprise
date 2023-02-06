@@ -58,6 +58,10 @@ const items =[
         title:'Fresh Puna Yam'
     },
     {
+        img:'assets/img7.jpg',
+        title:'Fresh White Yam'
+    },
+    {
         img:'assets/img4.jpg',
         title:'Tiger Nut'
     },

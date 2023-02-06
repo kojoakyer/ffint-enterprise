@@ -14,14 +14,14 @@ const Titlesection = () => {
                 {/* <Fade bottom> */}
                     <img src="assets/img-5.webp" alt="" />
                     <h5>Vegetables</h5>
-                    <p>We produce a vriety of vegetables such as Turia, Tinda, Long Marrow, Birdeye Chilli</p>
+                    <p>We produce a variety of vegetables such as Turia, Tinda, Long Marrow, Birdeye Chilli</p>
                 {/* </Fade> */}
                 </div>
                 <div className="titlesection-wrapper-content">
                 {/* <Fade bottom > */}
                 <img src="assets/img-6.webp" alt="" />
                     <h5>Herbs</h5>
-                    <p>we supply nutritional herbs like Dried Hibiscus Flowers.</p>
+                    <p>We supply nutritional herbs like Dried Hibiscus Flowers.</p>
                 {/* </Fade> */}
                 </div>
                 <div className="titlesection-wrapper-content">
