@@ -7,9 +7,7 @@ const Midsection = () => {
         <div className="midsection-wrapper">
             <div className="midsection-wrapper-left">
                 <h3>ABOUT FFINT ENTERPRISE</h3>
-                <h5>Some Reason For Why
-                    Choose FFINT ENTERPRISE?
-                </h5>
+                <h5>Some Reasons To Choose FFINT ENTERPRISE?</h5>
 
                 <p>Our vision is to be Ghana's largest exporter of agricultural goods.</p>
                 <div className="midsection-wrapper-right-img">

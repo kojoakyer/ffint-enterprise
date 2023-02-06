@@ -10,7 +10,7 @@ const Progress = () => {
       <div className="progress-wrapper">
         <div className="progress-wrapper-left">
           <h4>MANUFACTURED</h4>
-          <h5>Expoter of agricultural goods</h5>
+          <h5>Exporter of agricultural goods</h5>
           <p>Our vision is to be Ghanas largest exporter of agriculturalgoods.</p>
         </div>
         <div className="progress-wrapper-right">

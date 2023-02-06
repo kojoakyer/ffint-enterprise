@@ -27,7 +27,7 @@ const Values = () => {
                     <h5>YEARS OF EXPERIENCE</h5>
                 </div>
                 <div className="value-container">
-                    <h4>7</h4>
+                    <h4>2</h4>
                     <h5>TESTING LABORATORIES</h5>
                 </div>
                 <div className="value-container">
