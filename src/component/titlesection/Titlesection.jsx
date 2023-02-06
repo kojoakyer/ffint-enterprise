@@ -19,7 +19,7 @@ const Titlesection = () => {
                 </div>
                 <div className="titlesection-wrapper-content">
                 {/* <Fade bottom > */}
-                <img src="assets/img-6.webp" alt="" />
+                <img style={{width:'100px',height:'100px',marginTop:'20px'}} src="https://img.freepik.com/premium-vector/vector-drawing-spring-flower-doodle-style-vintage-flower-template-wedding_646529-377.jpg?w=740" alt="" />
                     <h5>Herbs</h5>
                     <p>We supply nutritional herbs like Dried Hibiscus Flowers.</p>
                 {/* </Fade> */}
