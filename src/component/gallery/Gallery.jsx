@@ -65,6 +65,12 @@ const items =[
         img:'assets/img4.jpg',
         title:'Tiger Nut'
     },
-    
-
+    {
+        img:'assets/garriimg.webp',
+        title:'Yellow Garri'
+    },
+    {
+        img:'assets/Garriwhite.jpg',
+        title:'White Garri'
+    }
 ]
